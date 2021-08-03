@@ -1,9 +1,9 @@
 # har
 __Problem Statement__
-- The objective of this project is to build a model that predicts the human activities such as Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing or Laying.
+- The objective of this project is to build a model that predicts the human activities such as Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing or Laying using the raw data from sensors.
 
 __Description__
-- This dataset is collected from 30 persons(referred as subjects in this dataset), performing different activities with a smartphone to their waists. 
+- This dataset is collected from 30 people(referred as subjects in this dataset), performing different activities with a smartphone to their waists. 
 - The data is recorded with the help of sensors (accelerometer and Gyroscope) in that smartphone. This experiment was video recorded to label the data manually.
 - By using these sensors, the linear acceleration of the body was captured in all the three axes (X-axis, Y-axis, and Z-axis).
 - Using these readings, data was labelled munaully for supervised learning task. 
