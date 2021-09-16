@@ -11,8 +11,8 @@ __Model Architecture__
 - Used [Divide and Conquer](https://www.mdpi.com/1424-8220/18/4/1055) approach.
 - First built a binary classifier model (M_binary) that will classify whether the activity is __Static__ (Sitting, Standing, and Laying) or __Dynamic__ (Walking, Walking_Upstairs, and Walking_Downstairs).
 - Then built another two models (M_static and M_dynamic). 
-- If M_binary predicts input as static then pass the input to M_static to predict whether the output is Sitting, and Standing, Laying.
-- If M_binary predicts input as dynamic then pass the input to M_dynamic to predict whether the output is Walking, Walking_Upstairs, and Walking_Downstairs.
+- If M_binary predicts input as static then pass the input to M_static to predict whether the output is Sitting, Standing, or Laying.
+- If M_binary predicts input as dynamic then pass the input to M_dynamic to predict whether the output is Walking, Walking_Upstairs, or Walking_Downstairs.
 
 - M_binary
 - ![Binary](https://github.com/shashank3009/human-activity-r/blob/main/Model%20Architecture/M_binary.png)
